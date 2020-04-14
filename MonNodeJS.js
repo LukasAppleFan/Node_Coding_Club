@@ -99,3 +99,56 @@ for (let index = 0; index < 5; index++) {
 		console.log(`La couleur ${couleurArray[4]} n'était pas attendue`);
 	}
 }
+
+// IV - Les fonctions
+// A - Les fonctions traditionnelles
+function myReturn0() {
+	return (0);
+}
+
+function myReturnNothing() {
+	return;
+}
+
+function addTwoNums(num1, num2) {
+	return num1 + num2;
+}
+console.log(addTwoNums(15, 15));
+
+function myAdditionV1(val1, val2) {
+	return (val1 + val2);
+}
+function myAdditionV2(val1, val2) {
+	let res = val1 + val2;
+	return (res);
+}
+console.log(myAdditionV1(1, 1));
+console.log(myAdditionV2(1, 1));
+
+const maVariable = function (param1, param2) {
+	return (param1 + param2);
+}
+console.log(maVariable(1, 1));
+console.log(maVariable(2, 2));
+
+couleurArray = ["bleu","rouge","jaune","vert", "violet"];
+const colorsToIndex0 = array => {
+	for (let index = 0; index < couleurArray.lenght; index++) {
+		let res = `L'index ${index} correspond à la couleur ${array[index]}`;
+		return res;
+	}
+}
+
+console.log(colorsToIndex(couleurArray));
+
+// const corlorsToIndex = array => {
+// 	let res = "";
+// 	for (let i = 0; i < array.length; i++) {
+// 		res += `Il y a la couleur ${array[i]} à l'index ${i}!`;
+// 		if (i !== array.length - 1) {
+//  			res += '\n';
+// 		}
+// 	}
+// 	return (res);
+// }
+// console.log(corlorsToIndex(couleurArray));

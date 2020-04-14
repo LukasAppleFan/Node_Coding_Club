@@ -133,7 +133,7 @@ console.log(maVariable(2, 2));
 
 couleurArray = ["bleu","rouge","jaune","vert", "violet"];
 const colorsToIndex = array => {
-	let res;
+	let res = "";
 	for (let index = 0; index < couleurArray.length; index++) {
 		res += `L'index ${index} correspond à la couleur ${array[index]}`;
 		if (index !== array.length - 1) {

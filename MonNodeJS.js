@@ -16,3 +16,7 @@ const x = 3;
 const y = 7;
 console.log(`${x} + ${y} = ${x + y}`);
 console.log(x + " + " + y + " = " + (x + y));
+
+let B = 42;
+B = String(B);
+console.log(typeof(B));

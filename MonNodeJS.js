@@ -145,14 +145,14 @@ const colorsToIndex = array => {
 
 console.log(colorsToIndex(couleurArray));
 
-// const corlorsToIndex = array => {
-// 	let res = "";
-// 	for (let i = 0; i < array.length; i++) {
-// 		res += `Il y a la couleur ${array[i]} à l'index ${i}!`;
-// 		if (i !== array.length - 1) {
-//  			res += '\n';
-// 		}
-// 	}
-// 	return (res);
-// }
-// console.log(corlorsToIndex(couleurArray));
+const corlorsToIndex2 = array => {
+	let res = "";
+	for (let i = 0; i < array.length; i++) {
+		res += `Il y a la couleur ${array[i]} à l'index ${i}!`;
+		if (i !== array.length - 1) {
+ 			res += '\n';
+		}
+	}
+	return (res);
+}
+console.log(corlorsToIndex2(couleurArray));

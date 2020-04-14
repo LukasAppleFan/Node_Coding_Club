@@ -43,3 +43,59 @@ if (couleur == "bleu") {
 } else {
 	console.log("La couleur était : " + couleur);
 }
+
+// C - Les boucles
+
+let C = 0;
+
+while (C < 10) {
+	console.log(C);
+	C++;
+}
+
+let D = 10;
+for (C = 0; C < D; C++) {
+	console.log(C);
+}
+
+let i = 7;
+switch (i) {
+ case 0:
+ console.log(0);
+ break;
+ case 1:
+ console.log(1);
+ break;
+ case 2:
+ console.log(3);
+ break;
+ case 3:
+ console.log(4);
+ break;
+ case 4:
+ console.log(5);
+ break;
+ default:
+ console.log("(╯°□°)╯︵ ┻━┻");
+}
+
+// Petit exercice !
+let couleurArray = ["bleu","rouge","jaune","vert", "violet"];
+for (let index = 0; index < 5; index++) {
+	switch (index) {
+		case 0:
+		console.log(`La couleur à l'index ${index} est : ${couleurArray[index]}`);
+		break;
+		case 1:
+		console.log(`La couleur à l'index ${index} est : ${couleurArray[index]}`);
+		break;
+		case 2:
+		console.log(`La couleur à l'index ${index} est : ${couleurArray[index]}`);
+		break;
+		case 3:
+		console.log(`La couleur à l'index ${index} est : ${couleurArray[index]}`);
+		break;
+		default:
+		console.log(`La couleur ${couleurArray[4]} n'était pas attendue`);
+	}
+}

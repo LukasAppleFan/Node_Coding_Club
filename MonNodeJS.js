@@ -20,3 +20,11 @@ console.log(x + " + " + y + " = " + (x + y));
 let B = 42;
 B = String(B);
 console.log(typeof(B));
+
+// III
+let age = 18;
+if (age >= 18) {
+	console.log("Vous êtes majeur : " + age + " ans");
+} else if (age < 18) {
+	console.log("Vous êtres mineur : " + age + " ans");
+}

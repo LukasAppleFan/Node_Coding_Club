@@ -22,9 +22,24 @@ B = String(B);
 console.log(typeof(B));
 
 // III
+// Petit exercice !
 let age = 18;
 if (age >= 18) {
 	console.log("Vous êtes majeur : " + age + " ans");
 } else if (age < 18) {
 	console.log("Vous êtres mineur : " + age + " ans");
+}
+
+// Deuxième petit exercice !
+let couleur = "bleu";
+if (couleur == "bleu") {
+	console.log("La couleur est bleu");
+} else if (couleur == "rouge") {
+	console.log("La couleur est rouge");
+} else if (couleur == "vert") {
+	console.log("La couleur est vert");
+} else if (couleur == "jaune") {
+	console.log("La couleur est jaune");
+} else {
+	console.log("La couleur était : " + couleur);
 }
